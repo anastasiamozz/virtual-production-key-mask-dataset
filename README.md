@@ -53,6 +53,36 @@ All images were resized to 512 × 512 pixels. Training, validation, and test
 subsets were separated by background. Configuration files and training logs
 are provided for each evaluated model.
 
+## Results
+
+The following results were obtained on the background-disjoint test set containing
+seven images from the held-out Background 9.
+
+### Overall performance
+
+![Overall segmentation performance](assets/overall_performance.png)
+
+DeepLabV3 achieved the highest mean performance across PSNR, Dice, and IoU,
+followed by YOLOv8m-seg. U-Net remained competitive, while Mask R-CNN showed
+lower and less consistent performance. SAM 3 returned no mask for six of the
+seven test images and therefore achieved the lowest mean scores.
+
+![Model comparison](assets/model_comparison.png)
+
+### Object-level performance
+
+![Object-level segmentation performance](assets/object_level_performance.png)
+
+Object 4 (paper towels) and Object 7 (pens in a pen holder) produced the strongest
+results across the trained models. Object 6 (fruit basket) was the most challenging,
+indicating that object shape, texture, boundary definition, and contrast with the
+background influenced segmentation performance.
+
+These results should be interpreted as a controlled proof of concept. The dataset
+contains seven foreground assets and one held-out test background, so broader
+generalisation requires additional objects and more varied capture conditions.
+
+
 ## Citation
 
 Please cite the accompanying paper and repository when using these materials.
