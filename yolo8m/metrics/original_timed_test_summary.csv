@@ -1,0 +1,2 @@
+model,test_images,image_size,confidence_threshold,nms_iou_threshold,mean_dice,std_dice,mean_iou,std_iou,mean_psnr_db,std_psnr_db,mean_precision,mean_recall,mean_pixel_accuracy,mean_predicted_instances,mean_inference_time_seconds,mean_inference_time_ms,fps
+YOLOv8m-seg,7,512,0.25,0.7,0.8653798358780997,0.1972249408376063,0.8035986317055566,0.23595829800876406,17.652560097830637,4.633004696713424,0.8182871641768956,0.97920252253671,0.9626696486924419,1.1428571428571428,0.25310622414274675,253.10622414274675,3.950910347570198

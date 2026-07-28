@@ -1,0 +1,2 @@
+model,encoder,test_images,threshold,mean_dice,std_dice,mean_iou,std_iou,mean_psnr_db,std_psnr_db,mean_inference_time_seconds,mean_inference_time_ms,fps,best_validation_dice,best_epoch
+U-Net,ResNet-34,7,0.5,0.8476591195378985,0.11665026263562035,0.7511321646826608,0.15412456098248867,15.557533945356097,1.023575964110845,0.02905116414272665,29.051164142726652,34.422028497276706,0.8636081985064915,50

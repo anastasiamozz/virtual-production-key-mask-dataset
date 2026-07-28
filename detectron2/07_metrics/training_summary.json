@@ -1,0 +1,25 @@
+{
+    "training_time_seconds": 426.86330323200036,
+    "training_time_minutes": 7.114388387200006,
+    "best_checkpoint": "/content/detectron2_results/mask_rcnn_R50_FPN/model_best.pth",
+    "final_checkpoint": "/content/detectron2_results/mask_rcnn_R50_FPN/model_final.pth",
+    "selected_checkpoint": "/content/detectron2_results/mask_rcnn_R50_FPN/model_best.pth",
+    "validation_results": {
+        "bbox": {
+            "AP": 55.85289957567184,
+            "AP50": 75.1060820367751,
+            "AP75": 61.88118811881187,
+            "APs": NaN,
+            "APm": NaN,
+            "APl": 55.85289957567184
+        },
+        "segm": {
+            "AP": 44.05940594059406,
+            "AP50": 83.16831683168317,
+            "AP75": 48.9108910891089,
+            "APs": NaN,
+            "APm": NaN,
+            "APl": 45.48514851485148
+        }
+    }
+}

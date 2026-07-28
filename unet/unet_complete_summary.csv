@@ -1,0 +1,2 @@
+model,encoder,best_epoch,best_validation_dice,test_images,mean_test_dice,std_test_dice,median_test_dice,minimum_test_dice,maximum_test_dice,mean_test_iou,std_test_iou,mean_test_psnr_db,std_test_psnr_db,mean_precision,mean_recall,mean_pixel_accuracy
+U-Net,ResNet-34,50,0.8636081985064915,7,0.8476591195378985,0.11665026263562035,0.8769593834877014,0.5759974122047424,0.9681857228279114,0.7511321646826608,0.15412456098248867,15.557534490312849,1.0235762303439266,0.8040921654148799,0.9003950771137479,0.9696829659598214

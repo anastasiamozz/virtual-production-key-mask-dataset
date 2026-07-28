@@ -1,0 +1,11 @@
+{
+    "model": "YOLOv8m-seg",
+    "checkpoint": "/content/yolo_results/yolov8m_seg/weights/best.pt",
+    "epochs": 50,
+    "image_size": 512,
+    "confidence_threshold": 0.25,
+    "nms_iou_threshold": 0.7,
+    "mask_threshold": 0.5,
+    "test_images": 7,
+    "device": "0"
+}

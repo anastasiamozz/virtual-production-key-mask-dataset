@@ -1,0 +1,19 @@
+{
+    "model": "Mask R-CNN R50-FPN",
+    "model_config": "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml",
+    "epochs": 50,
+    "training_images": 49,
+    "batch_size": 2,
+    "iterations_per_epoch": 25,
+    "maximum_iterations": 1250,
+    "validation_period": 25,
+    "checkpoint_period": 125,
+    "base_learning_rate": 0.00025,
+    "weight_decay": 0.0001,
+    "image_size": 512,
+    "seed": 42,
+    "device": "cuda",
+    "train_dataset": "rom_detectron2_train",
+    "validation_dataset": "rom_detectron2_val",
+    "test_dataset": "rom_detectron2_test"
+}

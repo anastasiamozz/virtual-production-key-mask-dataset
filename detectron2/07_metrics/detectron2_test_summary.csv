@@ -1,0 +1,2 @@
+model,test_images,image_size,score_threshold,mean_dice,std_dice,mean_iou,std_iou,mean_psnr_db,std_psnr_db,mean_precision,mean_recall,mean_pixel_accuracy,mean_predicted_instances,mean_inference_time_seconds,mean_inference_time_ms,fps
+Mask R-CNN R50-FPN,7,512,0.25,0.7329765158290051,0.27109704291186526,0.6355416684474482,0.26959522076196474,13.888742583138603,2.42398509521227,0.7148863330738494,0.7803891100213576,0.9526214599609375,1.8571428571428572,0.12619509542855667,126.19509542855667,7.924238232904495

@@ -1,0 +1,2 @@
+model,evaluation_mode,test_images,mean_dice,std_dice,mean_iou,std_iou,mean_psnr_db,std_psnr_db,mean_precision,mean_recall,mean_pixel_accuracy,mean_inference_time_ms,throughput_fps
+SAM 3,zero-shot category-prompt segmentation,7,0.05016069065833385,0.12286809724895636,0.030421157230654354,0.07451631259052974,9.505267934902065,2.6511579620673236,0.12547783251231528,0.03134567864772537,0.8597591945103237,1188.1586221430293,0.8416384659115161
