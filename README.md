@@ -11,6 +11,34 @@ The repository contains the dataset-generation code, model-training and
 evaluation code, experimental configurations, quantitative results, qualitative
 comparisons, and links to the complete dataset and trained model checkpoints.
 
+## Dataset Generation Methodology
+
+![Quality-controlled dataset generation methodology](assets/figure1_methodology.png)
+
+The proposed methodology integrates foreground asset preparation, background
+harmonisation, and synchronised image–mask generation within a unified
+quality-controlled workflow.
+
+First, foreground objects are captured under controlled chroma-key conditions
+together with a white reference. Deterministic extraction produces a reusable
+RGB foreground asset and its corresponding 8-bit alpha mask. Each extracted
+asset is inspected and corrected before reuse.
+
+Second, the selected virtual background is harmonised with the foreground
+capture conditions using Gray-World white-point estimation and colour
+adaptation.
+
+Finally, the approved foreground asset and adapted background are composited
+using synchronised transformations of the RGB image and its mask. Each
+composite is assessed for foreground scale, placement, colour consistency,
+contextual appropriateness, and overall scene plausibility. Samples that do not
+meet these criteria are revised before inclusion in the dataset.
+
+The workflow supports the reuse of \(N\) foreground assets across \(B\)
+backgrounds to generate up to \(N \times B\) image–mask pairs, with additional
+variation introduced through changes in position, scale, orientation, and object
+count.
+
 ## Dataset
 
 The proof-of-concept dataset contains 63 image–mask pairs generated from:
