@@ -34,10 +34,6 @@ composite is assessed for foreground scale, placement, colour consistency,
 contextual appropriateness, and overall scene plausibility. Samples that do not
 meet these criteria are revised before inclusion in the dataset.
 
-The workflow supports the reuse of \(N\) foreground assets across \(B\)
-backgrounds to generate up to \(N \times B\) image–mask pairs, with additional
-variation introduced through changes in position, scale, orientation, and object
-count.
 
 ## Dataset
 
