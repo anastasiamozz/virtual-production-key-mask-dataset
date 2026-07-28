@@ -1,0 +1,2 @@
+model,encoder,best_epoch,best_validation_dice,test_images,mean_test_dice,std_test_dice,median_test_dice,minimum_test_dice,maximum_test_dice,mean_test_iou,std_test_iou,mean_test_psnr_db,std_test_psnr_db,mean_precision,mean_recall,mean_pixel_accuracy
+DeepLabV3,ResNet-34,49,0.8409667781421116,7,0.8861552178859711,0.16207245266355103,0.9394361972808838,0.4920344054698944,0.9876119494438171,0.8256574315684182,0.20698838975892125,20.12001691545759,2.910184065363177,0.8952009646274737,0.8781888966239252,0.9819679260253906

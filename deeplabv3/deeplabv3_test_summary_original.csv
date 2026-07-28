@@ -1,0 +1,2 @@
+model,encoder,test_images,threshold,mean_dice,std_dice,mean_iou,std_iou,mean_psnr_db,std_psnr_db,mean_inference_time_seconds,mean_inference_time_ms,fps,best_validation_dice,best_epoch
+DeepLabV3,ResNet-34,7,0.5,0.8861552178859711,0.16207245266355103,0.8256574315684182,0.20698838975892125,20.120014871869767,2.910183306880654,0.05868038571419935,58.680385714199346,17.041469442114153,0.8409667781421116,49
